@@ -1,0 +1,252 @@
+* {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  width: 1200px;
+}
+nav {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+}
+
+nav img {
+  height: 50px;
+  margin-left: 10px;
+  padding: 0 1100px 0 0;
+  width: auto;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: underline;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+#main-image {
+  background-image: url(./resources/images/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  position: relative;
+  text-align: center;
+  margin: 71px auto 0px auto;
+  z-index: 2;
+  left: 250px;
+}
+
+h2 {
+  display: flex;
+  position: absolute;
+  background-color: black;
+  width: 1200px;
+  justify-content: center;
+  margin-top: -430px;
+  padding: 20px;
+  font-size: 35px;
+  z-index: 3;
+  left: 250px;
+}
+
+h4 {
+  display: flex;
+  position: absolute;
+  background-color: black;
+  width: 1200px;
+  justify-content: center;
+  margin-top: -350px;
+  padding: 20px;
+  z-index: 3;
+  left: 250px;
+}
+
+.middle-sect {
+  display: flex;
+  position: absolute;
+  top: 1250px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.tiles-position {
+  width: 100%;
+  top: 1000px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+
+.tiles-1 {
+  display: flex;
+  position: absolute;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+}
+
+.text-position-1 {
+  width: 1200px;
+  display: flex;
+  position: absolute;
+  top: 220px;
+  justify-content: space-evenly;
+}
+
+.text-position-1 p {
+  font-weight: bold;
+}
+
+.tiles-position-2 {
+  width: 1200px;
+  top: 270px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+
+.text-position-2 {
+  width: 900px;
+  display: flex;
+  position: absolute;
+  top: 220px;
+  justify-content: space-evenly;
+}
+
+.text-position-2 p {
+  font-weight: bold;
+}
+
+.locations {
+  display: flex;
+  position: relative;
+  top: 1100px;
+  width: 1200px;
+}
+
+#main-image-2 {
+  background-image: url(./resources/images/img-locations-background.jpg);
+  width: 1200px;
+  height: 650px;
+  display: flex;
+  position: relative;
+  text-align: center;
+  top: -500px;
+}
+
+.locations h2 {
+  background-color: transparent;
+  margin-left: -250px;
+}
+
+.locations .downtown {
+  width: 300px;
+  display: flex;
+  position: absolute;
+  top: -300px;
+  right: 800px;
+  opacity: 1;
+  justify-content: center;
+}
+
+.location .downtown p {
+  opacity: 1;
+}
+.locations .east-bayside {
+  width: 300px;
+  display: flex;
+  position: absolute;
+  top: -300px;
+  right: 450px;
+  opacity: 1;
+  justify-content: center;
+}
+
+.locations .oakdale {
+  width: 300px;
+  display: flex;
+  position: absolute;
+  top: -300px;
+  right: 100px;
+  opacity: 1;
+  justify-content: center;
+}
+
+.locations .downtown h3 {
+  display: flex;
+  position: absolute;
+  opacity: 1;
+  bottom: 149px;
+  width: 300px;
+  justify-content: center;
+}
+
+.locations .east-bayside h3 {
+  display: flex;
+  position: absolute;
+  opacity: 1;
+  bottom: 149px;
+  width: 300px;
+  justify-content: center;
+}
+
+.locations .oakdale h3 {
+  display: flex;
+  position: absolute;
+  opacity: 1;
+  bottom: 149px;
+  width: 300px;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  position: relative;
+  top: 1950px;
+  justify-content: center;
+  height: 200px;
+  width: 1200px;
+}
+
+.contact .place {
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.contact .email {
+  display: flex;
+  position: absolute;
+  top: -350px;
+  right: 200px;
+}
+
+.contact .number {
+  display: flex;
+  position: absolute;
+  top: -260px;
+  right: 265px;
+}
+
+.contact .copyright {
+  margin-left: 20px;
+  display: flex;
+  position: absolute;
+  bottom: 330px;
+  width: 1200px;
+}
